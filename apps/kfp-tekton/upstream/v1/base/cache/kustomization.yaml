@@ -9,6 +9,6 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: gcr.io/ml-pipeline/cache-server
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-cache-server
     newName: quay.io/aipipeline/cache-server
     newTag: 1.7.1

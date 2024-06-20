@@ -21703,7 +21703,7 @@ spec:
               fieldPath: metadata.namespace
         - name: SECRET_NAME
           value: kserve-webhook-server-cert
-        image: kserve/kserve-controller:v0.13.0
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/kserve-kserve-controller:v0.13.0
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 5
@@ -21743,7 +21743,7 @@ spec:
         - --upstream=http://127.0.0.1:8080/
         - --logtostderr=true
         - --v=10
-        image: gcr.io/kubebuilder/kube-rbac-proxy:v0.13.1
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-kubebuilder-kube-rbac-proxy:v0.13.1
         name: kube-rbac-proxy
         ports:
         - containerPort: 8443
