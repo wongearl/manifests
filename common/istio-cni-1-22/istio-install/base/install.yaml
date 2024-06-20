@@ -2337,7 +2337,7 @@ data:
         },
         "enabled": true,
         "externalIstiod": false,
-        "hub": "docker.io/istio",
+        "hub": "registry.cn-hangzhou.aliyuncs.com/earl-k8s",
         "imagePullPolicy": "",
         "imagePullSecrets": [],
         "istioNamespace": "istio-system",
@@ -2369,7 +2369,7 @@ data:
           "excludeIPRanges": "",
           "excludeInboundPorts": "",
           "excludeOutboundPorts": "",
-          "image": "proxyv2",
+          "image": "istio-proxyv2",
           "includeIPRanges": "*",
           "includeInboundPorts": "*",
           "includeOutboundPorts": "",
@@ -2396,7 +2396,7 @@ data:
           "tracer": "none"
         },
         "proxy_init": {
-          "image": "proxyv2"
+          "image": "istio-proxyv2"
         },
         "remotePilotAddress": "",
         "sds": {
