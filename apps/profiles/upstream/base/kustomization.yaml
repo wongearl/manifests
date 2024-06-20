@@ -10,8 +10,8 @@ patchesStrategicMerge:
 - patches/manager.yaml
 
 images:
-- name: docker.io/kubeflownotebookswg/profile-controller
-  newName: docker.io/kubeflownotebookswg/profile-controller
+- name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-profile-controller
+  newName: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-profile-controller
   newTag: v1.9.0-rc.0
 
 configMapGenerator:

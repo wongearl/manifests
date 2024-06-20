@@ -80,7 +80,7 @@ spec:
               secretKeyRef:
                 name: mlpipeline-minio-artifact
                 key: secretkey
-        image: gcr.io/ml-pipeline/persistenceagent:dummy
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-persistenceagent:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-persistenceagent
         resources:

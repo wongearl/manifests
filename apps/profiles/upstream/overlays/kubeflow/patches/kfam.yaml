@@ -20,7 +20,7 @@ spec:
         envFrom:
           - configMapRef:
               name: config
-        image: docker.io/kubeflownotebookswg/kfam
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-kfam
         imagePullPolicy: IfNotPresent
         name: kfam
         livenessProbe:

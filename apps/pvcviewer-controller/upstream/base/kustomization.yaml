@@ -4,6 +4,6 @@ resources:
 - ../default
 
 images:
-- name: docker.io/kubeflownotebookswg/pvcviewer-controller
-  newName: docker.io/kubeflownotebookswg/pvcviewer-controller
+- name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-pvcviewer-controller
+  newName: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-pvcviewer-controller
   newTag: v1.9.0-rc.0

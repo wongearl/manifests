@@ -77,7 +77,7 @@ spec:
               key: secretkey
         - name: EXECUTIONTYPE
           value: Workflow
-        image: gcr.io/ml-pipeline/api-server:dummy
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-api-server:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-api-server
         ports:

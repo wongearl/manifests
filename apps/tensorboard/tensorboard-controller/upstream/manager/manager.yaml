@@ -29,7 +29,7 @@ spec:
       containers:
         - command:
             - /manager
-          image: docker.io/kubeflownotebookswg/tensorboard-controller
+          image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/docker.io-kubeflownotebookswg-tensorboard-controller
           name: manager
           securityContext:
             allowPrivilegeEscalation: false

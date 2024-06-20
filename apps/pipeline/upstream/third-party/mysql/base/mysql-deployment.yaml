@@ -48,7 +48,7 @@ spec:
         env:
         - name: MYSQL_ALLOW_EMPTY_PASSWORD
           value: "true"
-        image: gcr.io/ml-pipeline/mysql:8.0.26
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-mysql:8.0.26
         name: mysql
         ports:
         - containerPort: 3306

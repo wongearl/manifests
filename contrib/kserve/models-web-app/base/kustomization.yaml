@@ -11,8 +11,8 @@ commonLabels:
   app.kubernetes.io/component: kserve-models-web-app
 
 images:
-- name: kserve/models-web-app
-  newName: kserve/models-web-app
+- name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/kserve-models-web-app
+  newName: registry.cn-hangzhou.aliyuncs.com/earl-k8s/kserve-models-web-app
   newTag: v0.10.0
 configMapGenerator:
   - name: kserve-models-web-app-config

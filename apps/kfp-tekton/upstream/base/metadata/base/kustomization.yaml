@@ -9,5 +9,5 @@ resources:
   - metadata-grpc-sa.yaml
 namespace: kubeflow
 images:
-  - name: gcr.io/ml-pipeline/metadata-envoy
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-metadata-envoy
     newTag: 2.0.5

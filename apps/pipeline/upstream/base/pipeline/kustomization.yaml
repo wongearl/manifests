@@ -35,15 +35,15 @@ resources:
   - viewer-sa.yaml
   - kfp-launcher-configmap.yaml
 images:
-  - name: gcr.io/ml-pipeline/api-server
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-api-server
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/persistenceagent
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-persistenceagent
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/scheduledworkflow
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-scheduledworkflow
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/frontend
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-frontend
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/viewer-crd-controller
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-viewer-crd-controller
     newTag: 2.2.0
-  - name: gcr.io/ml-pipeline/visualization-server
+  - name: registry.cn-hangzhou.aliyuncs.com/earl-k8s/gcr.io-ml-pipeline-visualization-server
     newTag: 2.2.0
