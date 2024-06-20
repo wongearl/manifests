@@ -2709,7 +2709,7 @@ spec:
           valueFrom:
             fieldRef:
               fieldPath: spec.nodeName
-        image: docker.io/istio/proxyv2:1.22.1
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/istio-proxyv2:1.22.1
         name: istio-proxy
         ports:
         - containerPort: 15021
@@ -2901,7 +2901,7 @@ spec:
               resource: limits.cpu
         - name: PLATFORM
           value: ''
-        image: docker.io/istio/pilot:1.22.1
+        image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/istio-pilot:1.22.1
         name: discovery
         ports:
         - containerPort: 8080
