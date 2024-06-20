@@ -5669,7 +5669,7 @@ spec:
       serviceAccountName: activator
       containers:
         - name: activator
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:ad42ddc9bc4e25fdc88c240d7cbfad4b2708eb7d26e07ae904d258011141116e
+          image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/serving-activator:20240620
           resources:
             requests:
               cpu: 300m
@@ -5804,7 +5804,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: autoscaler
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:66aa0dbceee62691d5327e423bbd7cbd411903747adeab61fdc81b14590793d4
+          image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/serving-autoscaler:20240620
           resources:
             requests:
               cpu: 100m
@@ -5918,7 +5918,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: controller
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:e5b7b6edd265b66d32f424bd245c06455154462ade6ce05698472212248d5657
+          image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/serving-controller:20240620
           resources:
             requests:
               cpu: 100m
@@ -6067,7 +6067,7 @@ spec:
       serviceAccountName: controller
       containers:
         - name: webhook
-          image: gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:48aee2733721ecc77956abc5a2ca072853a669ebc97519beb48f7b3da8455e67
+          image: registry.cn-hangzhou.aliyuncs.com/earl-k8s/serving-webhook:20240620
           resources:
             requests:
               cpu: 100m
